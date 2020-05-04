@@ -10,7 +10,7 @@ sidebar_label: Domain Gameserver Weiterleitung
 
 Du kannst entweder deine Domain vollständig, oder lediglich eine Subdomain auf deinen Gameserver weiterleiten.
 So muss sich niemand die komplizierte IP Adresse welche aus Zahlen besteht merken sondern kann sich einfach mithilfe der Domain auf deinen Gameserver verbinden.
-In den folgenden Beispielen erstellen zir zwei Subdomains und leiten diese auf einen Minecraft- und auf einen FiveM Gameserver weiter.
+In den folgenden Beispielen erstellen wir zwei Subdomains und leiten diese auf einen Minecraft- und auf einen FiveM Gameserver weiter.
 
 
 ## Wie funktioniert das?
@@ -19,7 +19,7 @@ In den folgenden Beispielen erstellen zir zwei Subdomains und leiten diese auf e
 Für die Weiterleitung der IP Adresse wird entweder eine Subdomain erstellt welche auf die IP Adresse des Gameservers leitet, oder du leitest die komplette Domain ohne Subdomain weiter.
 Dies würde bereits ausreichen wenn der Gameserver den Standartport des jeweiligen Spiels verwendet.
 Verwendet der Gameserver jedoch einen anderen Port als den Standartport des jeweiligen Spiels, wird zusätzlich noch ein sogenannter **SRV Eintrag**
-benötigt um die Subdomain auf den richtigen Port weiterleiten zu können.
+benötigt um die Domain oder Subdomain auf den richtigen Port weiterleiten zu können.
 
 > Nicht alle Spiele unterstützen die Weiterleitung einer Domain auf den Spielport per SRV Eintrag, informiere dich daher vorher ob 
 dein Spiel SRV Einträge unterstützt.
@@ -61,7 +61,7 @@ Das Feld **TTL** kannst du unberührt lassen.
 
 ![](https://puu.sh/Fuzsi/3bbe761892.png)
 
-Wenn du alle seingetragen hast klickst du auf **Speichern**, der Eintrag wird dann in den DNS Einstellungen hinterlegt und wird innerhalb
+Wenn du alles eingetragen hast klickst du auf **Speichern**, der Eintrag wird dann in den DNS Einstellungen hinterlegt und wird innerhalb
 von 24 Stunden erreichbar.
 
 > Es kann immer bis zu 24 Stunden dauern bis neue DNS Einträge aktiv werden. Darauf hat leider niemand Einfluss.
